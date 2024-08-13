@@ -27,6 +27,6 @@ Este repositório contém o código-fonte para uma landing page moderna e respon
 
 ## 🔗 Links Úteis
 
-- **Instagram**: [(https://www.instagram.com/artedasredes/)]
-- **Contato**: [artedasredes@gmail.com]
+- **Instagram**: https://www.instagram.com/artedasredes/
+- **Contato**: artedasredes@gmail.com
 
