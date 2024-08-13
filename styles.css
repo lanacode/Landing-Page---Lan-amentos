@@ -1,0 +1,216 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.header .nav a {
+    color: #fff;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.cta-button {
+    background-color: #ff6600;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #e55a00;
+}
+
+.hero {
+    background-color: #f4f4f4;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.hero img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.benefits {
+    padding: 50px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.benefits h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.benefits .benefit {
+    margin-bottom: 20px;
+}
+
+.benefits .benefit img {
+    max-width: 100px;
+    margin-bottom: 10px;
+}
+
+.testimonials {
+    padding: 50px 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.testimonials h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.testimonials .testimonial {
+    margin-bottom: 20px;
+}
+
+.testimonials .testimonial h3 {
+    font-size: 18px;
+    color: #555;
+}
+
+.cta {
+    padding: 50px 20px;
+    background-color: #ff6600;
+    color: #fff;
+    text-align: center;
+}
+
+.cta h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.cta form {
+    display: inline-block;
+}
+
+.cta input[type="email"] {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.cta button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #ff6600;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.cta button:hover {
+    background-color: #e55a00;
+    color: #fff;
+}
+
+.footer {
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+
+.footer-nav a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+    }
+
+    .header .nav {
+        flex-direction: column;
+        margin-top: 10px;
+    }
+
+    .header .nav a {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .hero h1 {
+        font-size: 36px;
+    }
+
+    .benefits h2,
+    .testimonials h2,
+    .cta h2 {
+        font-size: 28px;
+    }
+
+    .cta form {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .cta input[type="email"] {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .cta button {
+        width: 100%;
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero h1 {
+        font-size: 28px;
+    }
+
+    .cta h2 {
+        font-size: 24px;
+    }
+
+    .benefits h2,
+    .testimonials h2 {
+        font-size: 24px;
+    }
+}
