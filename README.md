@@ -2,6 +2,8 @@
 
 Bem-vindo ao repositório da **Landing Page - Lançamentos**! Este projeto oferece uma solução completa para criar páginas de aterrissagem eficazes para lançamentos de produtos ou eventos. A landing page é projetada para ser visualmente atraente e otimizada para maximizar conversões e capturar leads.
 
+<img src="/assets/Landing Page Simples (tema orange).png">
+
 ## 📋 Descrição
 
 Este repositório contém o código-fonte para uma landing page moderna e responsiva, ideal para promover lançamentos de produtos, eventos ou campanhas. A página inclui:
