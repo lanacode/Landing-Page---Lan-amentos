@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page de Alta Conversão</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
     <header class="header">
-        <div class="logo">Minha Marca</div>
+        <div class="logo">Sua Marca</div>
         <nav class="nav">
+            <a href="#home">Home</a>
             <a href="#benefits">Benefícios</a>
             <a href="#testimonials">Depoimentos</a>
-            <a href="#cta">Entre em Contato</a>
         </nav>
         <a href="#cta" class="cta-button">Cadastre-se</a>
     </header>
@@ -20,56 +22,75 @@
     <section class="hero">
         <h1>Transforme sua Vida com Nosso Produto</h1>
         <p>Descubra como nosso produto pode trazer benefícios incríveis para você.</p>
-        <img src="hero-image.jpg" alt="Imagem de destaque">
+        <img src="./imagens/hero-image.png" alt="Imagem de destaque">
         <a href="#cta" class="cta-button">Saiba Mais</a>
     </section>
 
     <section id="benefits" class="benefits">
-        <h2>Principais Benefícios</h2>
-        <div class="benefit">
-            <img src="benefit1-icon.png" alt="Ícone 1">
-            <h3>Benefício 1</h3>
-            <p>Descrição do benefício 1.</p>
-        </div>
-        <div class="benefit">
-            <img src="benefit2-icon.png" alt="Ícone 2">
-            <h3>Benefício 2</h3>
-            <p>Descrição do benefício 2.</p>
-        </div>
-        <div class="benefit">
-            <img src="benefit3-icon.png" alt="Ícone 3">
-            <h3>Benefício 3</h3>
-            <p>Descrição do benefício 3.</p>
+        <div class="container2">
+            <h2>Principais Benefícios</h2>
+            <div class="grid">
+                <div class="projeto">
+                    <h3>Benefício 1</h3>
+                    <p>Descrição do benefício 1.</p>
+                    <img src="./imagens/beneficios-image(1).png" alt="Landing Pages">
+                </div>
+                <div class="projeto">
+                    <h3>Benefício 2</h3>
+                    <p>Descrição do benefício 2.</p>
+                    <img src="./imagens/beneficios-image(2).png" alt="Página de Links">
+                </div>
+                <div class="projeto">
+                    <h3>Benefício 3</h3>
+                    <p>Descrição do benefício 3.</p>
+                    <img src="./imagens/beneficios-image(3).png" alt="Blog">
+                </div>
+                <div class="projeto">
+                    <h3>Benefício 4</h3>
+                    <p>Descrição do benefício 4.</p>
+                    <img src="./imagens/beneficios-image(4).png" alt="Site de Agendamento">
+                </div>
+            </div>
         </div>
     </section>
 
     <section id="testimonials" class="testimonials">
         <h2>O que nossos clientes dizem</h2>
-        <div class="testimonial">
-            <p>"Este produto mudou minha vida para melhor!"</p>
-            <h3>- Cliente Satisfeito</h3>
-        </div>
-        <div class="testimonial">
-            <p>"Não consigo mais viver sem ele."</p>
-            <h3>- Cliente Satisfeito</h3>
+        <div class="testimonial-grid">
+            <div class="testimonial">
+                <h3>- Cliente Satisfeito 1</h3>
+                <p>"Mudou minha vida para melhor!"</p>
+                <img src="./imagens/depoimentos-image(1).png" alt="Cliente Satisfeito 1">
+            </div>
+            <div class="testimonial">
+                <h3>- Cliente Satisfeito 2</h3>
+                <p>"Não consigo mais viver sem ele."</p>
+                <img src="./imagens/depoimentos-image(2).png" alt="Cliente Satisfeito 2">
+            </div>
+            <div class="testimonial">
+                <h3>- Cliente Satisfeito 3</h3>
+                <p>"Recomendo para todos que conheço!"</p>
+                <img src="./imagens/depoimentos-image(3).png" alt="Cliente Satisfeito 3">
+            </div>
         </div>
     </section>
 
     <section id="cta" class="cta">
         <h2>Pronto para transformar sua vida?</h2>
-        <p>Cadastre-se agora e comece a aproveitar todos os benefícios.</p>
+        <p>DIgite seu melhor e-mail e comece a aproveitar todos os benefícios.</p>
         <form action="#">
             <input type="email" placeholder="Seu e-mail" required>
-            <button type="submit">Cadastre-se</button>
+            <a href="#" class="cta-button2">Cadastre-se</a>
         </form>
     </section>
 
     <footer class="footer">
-        <p>&copy; 2024 Minha Marca. Todos os direitos reservados.</p>
+        <p>&copy; 2024 Sua Marca. Todos os direitos reservados.</p>
         <nav class="footer-nav">
             <a href="#">Política de Privacidade</a>
             <a href="#">Termos de Uso</a>
         </nav>
     </footer>
 </body>
+
 </html>
