@@ -26,4 +26,4 @@ Este repositório contém o código-fonte para uma landing page moderna e respon
 
 - **Instagram**: https://www.instagram.com/artedasredes/
 - **Contato**: artedasredes@gmail.com
-
+- **Link para acessar o site**: https://landingpagelacamento.netlify.app/
