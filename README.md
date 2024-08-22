@@ -1,6 +1,6 @@
-# Landing Page - Lançamentos
+# Landing Page - Simples
 
-Bem-vindo ao repositório da **Landing Page - Lançamentos**! Este projeto oferece uma solução completa para criar páginas de aterrissagem eficazes para lançamentos de produtos ou eventos. A landing page é projetada para ser visualmente atraente e otimizada para maximizar conversões e capturar leads.
+Bem-vindo ao repositório da **Landing Page - Simples**! Este projeto oferece uma solução completa para criar páginas de aterrissagem eficazes para lançamentos de produtos ou eventos. A landing page é projetada para ser visualmente atraente e otimizada para maximizar conversões e capturar leads.
 
 <img src="/imagens/Landing Page Simples (tema orange).png">
 
